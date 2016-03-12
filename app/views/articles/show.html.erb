@@ -1,0 +1,9 @@
+<h1>Article Page</h1>
+
+<div>
+<h2><%= @article.title %></h2>
+<h3><%= @article.body %></h3>
+</div>
+
+<p><%= link_to 'EDIT', edit_article_path(@article) %></p>
+<p><%= link_to 'INDEX PAGE', articles_path %></p>
